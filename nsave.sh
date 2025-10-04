@@ -1,6 +1,5 @@
-#!/bin/bash
 # nSAVE by FODSOFT(TM). Neo Fodere de Frutos
-
+#!/bin/bash
 URLS=(
   "https://fodsoft.com"
   "https://nstudios-games.fodsoft.com"
@@ -16,7 +15,4 @@ capturar_url() {
   sleep $delay
   curl -s -X POST "https://web.archive.org/save/$url" > /dev/null
 }
-for url in "${URLS[@]}"; do
-  capturar_url "$url" &
-done
-wait
+for url in "${URLS[@]}"; do capturar_url "$url" & done wait
