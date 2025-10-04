@@ -15,5 +15,8 @@ capturar_url() {
   sleep $delay
   curl -s -X POST "https://web.archive.org/save/$url" > /dev/null
 }
-for url in "${URLS[@]}"; do capturar_url "$url" & done wait
+for url in "${URLS[@]}"; do
+  capturar_url "$url" &
+done
+wait
 # (C) FODSOFT(TM). Neo Fodere de Frutos. All rights reserved.
