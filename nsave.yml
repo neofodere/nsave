@@ -3,14 +3,12 @@ on:
     schedule:
       - cron: '0 */2 * * *'
     workflow_dispatch:
-
 jobs:
   archivar:
     runs-on: ubuntu-latest
     steps:
       - name: Comprobar repo de nSAVE
       uses: actions/checkout@v3
-      
       - name: nSAVE script
       run: |
         chmod +x ./nsave.sh
