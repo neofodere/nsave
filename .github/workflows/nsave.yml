@@ -17,5 +17,4 @@ jobs:
         run: |
           chmod +x ./nsave.sh
           ./nsave.sh
-
 # (C) FODSOFT(TM). Neo Fodere de Frutos. All rights reserved.
