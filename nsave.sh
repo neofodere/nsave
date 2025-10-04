@@ -1,5 +1,6 @@
 #!/bin/bash
-# nSAVE
+# nSAVE by FODSOFT(TM). Neo Fodere de Frutos
+
 URLS=(
   "https://fodsoft.com"
   "https://nstudios-games.fodsoft.com"
@@ -9,15 +10,13 @@ URLS=(
   "https://fodsoft.fandom.com"
   "https://nstudios-games.fandom.com"
 )
-
-# Función para capturar cada URL
-capture_url() {
+capturar_url() {
   local url=$1
-  echo "Capturando $url..."
-  curl -s -X POST "https://web.archive.org/save/$url"
+  local delay=$((RANDOM % 75))
+  sleep $delay
+  curl -s -X POST "https://web.archive.org/save/$url" > /dev/null
 }
-
-# Iterar sobre cada URL
 for url in "${URLS[@]}"; do
-  capture_url "$url"
+  capturar_url "$url" &
 done
+wait
