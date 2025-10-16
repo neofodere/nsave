@@ -6,8 +6,6 @@ URLS=(
   "https://neofodere.fodsoft.com"
   "https://fodsoft.itch.io"
   "https://nsg-fodsoft.itch.io"
-  "https://fodsoft.fandom.com"
-  "https://nstudios-games.fandom.com"
 )
 capturar_url() {
   local url=$1
