@@ -7,13 +7,15 @@ URLS=(
   "https://fodsoft.itch.io"
   "https://nsg-fodsoft.itch.io"
 )
-capturar_url() {
+capturar_url()
+{
   local url=$1
   local delay=$((RANDOM % 75))
   sleep $delay
   curl -s "https://web.archive.org/save/$url" > /dev/null
 }
-for url in "${URLS[@]}"; do
+for url in "${URLS[@]}";
+do
   capturar_url "$url" &
 done
 wait
