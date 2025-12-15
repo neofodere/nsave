@@ -1,4 +1,4 @@
-# nSAVE by FODSOFT(TM)
+# nSAVE by Neo Fodere de Frutos
 #!/bin/bash
 
 URLS=(
