@@ -1,5 +1,6 @@
 # nSAVE by FODSOFT(TM)
 #!/bin/bash
+
 URLS=(
   "https://fodsoft.com"
   "https://nstudios-games.fodsoft.com"
@@ -7,6 +8,7 @@ URLS=(
   "https://fodsoft.itch.io"
   "https://nsg-fodsoft.itch.io"
 )
+
 capturar_url()
 {
   local url=$1
@@ -14,9 +16,11 @@ capturar_url()
   sleep $delay
   curl -s "https://web.archive.org/save/$url" > /dev/null
 }
+
 for url in "${URLS[@]}";
 do
   capturar_url "$url" &
 done
+
 wait
-# (C) FODSOFT(TM). Neo Fodere de Frutos. All rights reserved.
+# FODSOFT(TM). Neo Fodere de Frutos. All rights reserved.
