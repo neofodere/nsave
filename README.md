@@ -2,7 +2,7 @@
 ![](images/logo_nsave.png)<br>
 
 ## 📖 Description
-nSAVE is a software tool developed by Néo Foderé de Frutos. It works by automatically capturing snapshots via the Internet Archive's Wayback Machine to preserve FODSOFT™ websites.
+nSAVE is a software tool developed by Néo Foderé de Frutos. It works by automatically capturing snapshots via the Internet Archive's Wayback Machine to preserve FODSOFT™ and personal websites.
 
 ## 📁 Project structure
 `src/nsave.sh`: A Bash script that sends multiple websites to the Internet Archive’s Wayback Machine. It loops through a list of URLs, waits a random delay for each one, and triggers an archive request in parallel.
