@@ -1,4 +1,5 @@
 # nSAVE by Neo Fodere de Frutos
+
 #!/bin/bash
 
 URLS=(
@@ -12,7 +13,7 @@ URLS=(
 capturar_url()
 {
   local url=$1
-  local delay=$((RANDOM % 75))
+  local delay=$((180 + RANDOM % 180))
   sleep $delay
   curl -s "https://web.archive.org/save/$url" > /dev/null
 }
