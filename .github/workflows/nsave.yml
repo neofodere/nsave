@@ -15,6 +15,6 @@ jobs:
 
       - name: nSAVE script
         run: |
-          chmod +x ./nsave.sh
-          ./nsave.sh
+          chmod +x ./src/nsave.sh
+          ./src/nsave.sh
 # FODSOFT(TM). Neo Fodere de Frutos. All rights reserved.
