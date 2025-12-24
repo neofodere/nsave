@@ -8,6 +8,7 @@ URLS=(
   "https://neofodere.fodsoft.com"
   "https://fodsoft.itch.io"
   "https://nsg-fodsoft.itch.io"
+  "https://github.com/neofodere"
 )
 
 capturar_url()
