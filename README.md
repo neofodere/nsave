@@ -1,5 +1,5 @@
-# nSAVE
-![](images/logo_nsave.png)<br>
+# <img src="images/icono_nsave.png" width="32" height="auto"> nSAVE
+<img src="images/logo_nsave.png" width="450" height="auto">
 
 ## 📖 Description
 nSAVE is a software tool developed by Néo Foderé de Frutos. It works by automatically capturing snapshots via the Internet Archive's Wayback Machine to preserve FODSOFT™ websites.
