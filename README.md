@@ -10,6 +10,6 @@ nSAVE is a software tool developed by Néo Foderé de Frutos. It works by automa
 `.github/workflows/nsave.yml`: A GitHub Actions workflow that automatically runs the ***nsave.sh*** script every six hours on an Ubuntu runner.
 
 ## <img src="images/icono_nsave_blocker.png" width="32" height="auto"> nSAVE Blocker
-...
+nSAVE Blocker is an extension of nSAVE that prevents FODSOFT™ sites from being saved or loaded from external and/or unauthorized locations. It can be recognized by displaying the icon (<img src="images/icono_nsave_blocker.png" width="32" height="auto">) when active.
 
 **© 2026 FODSOFT™. Néo Foderé de Frutos. All rights reserved.**
