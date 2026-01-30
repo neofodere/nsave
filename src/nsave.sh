@@ -4,6 +4,7 @@
 
 URLS=(
   "https://fodsoft.com"
+  "https://fodsoft.com/vdream"
   "https://nstudios-games.fodsoft.com"
   "https://neofodere.fodsoft.com"
   "https://fodsoft.itch.io"
