@@ -10,7 +10,7 @@ nSAVE Blocker is an extension of nSAVE that prevents FODSOFT™ sites from being
 ## 🗂️ Project files
 File | Description |
 |----|-------------|
-| src/**nsave.sh** | A Linux shell script that calls web.archive.org/save/$url inside a loop, iterating through all the URLs defined in "URL=()". |
+| src/**nsave.sh** | A Linux shell script that calls web.archive.org/save/$url inside a loop, iterating through all the URLs defined in "URL". |
 
 <hr>
 
