@@ -10,4 +10,5 @@ nSAVE Blocker is an extension of nSAVE that prevents FODSOFT™ sites from being
 <hr>
 
 **nSAVE and all related trademarks and logos are property of FODSOFT™. Néo Foderé de Frutos.**
+
 **© 2026 FODSOFT™. Néo Foderé de Frutos. All rights reserved.**
