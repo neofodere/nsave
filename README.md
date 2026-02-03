@@ -7,6 +7,11 @@ nSAVE is a software tool developed by Néo Foderé de Frutos. It is designed to 
 ## <img src="images/icono_nsave_blocker.png" width="32" height="auto"> nSAVE Blocker
 nSAVE Blocker is an extension of nSAVE that prevents FODSOFT™ sites from being saved or loaded from external and/or unauthorized locations. It is recognizable by displaying the icon (<img src="images/icono_nsave_blocker.png" width="24" height="auto">) followed by the text **[BLOCKED BY: nSAVE Blocker]** when it is activated..
 
+## 🗂️ Project files
+File | Description |
+|----|-------------|
+| src/**nsave.sh** | A Linux shell script that calls **https://web.archive.org/save/$url** within a loop until it iterates through all the URLs defined in "URL" |
+
 <hr>
 
 **nSAVE and all related trademarks and logos are property of FODSOFT™. Néo Foderé de Frutos.**
