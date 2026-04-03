@@ -5,11 +5,8 @@
 URLS=(
   "https://fodsoft.com"
   "https://fodsoft.com/vdream"
-  "https://nstudios-games.fodsoft.com"
   "https://fodsoft.itch.io"
-  "https://nsg-fodsoft.itch.io"
   "https://github.com/neofodere/"
-  "https://github.com/neofodere/vdream"
 )
 
 capturar_url()
