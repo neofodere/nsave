@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>nSAVE Blocker Tester</title>
+		<link rel="icon" type="image/png" href="https://raw.githubusercontent.com/neofodere/nsave/refs/heads/main/images/icono_nsave_blocker.png">
+		<style>
+			body 
+			{
+				font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+				margin: 0;
+				padding: 0;
+				background-color: #f4f6f9;
+				color: #333;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				min-height: 100vh;
+			}
+
+			header 
+			{
+				width: 100%;
+				background-color: #ffffff;
+				box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+				padding: 15px 20px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				box-sizing: border-box;
+			}
+
+			.logo
+			{
+				display: flex;
+				align-items: center;
+				gap: 15px;
+			}
+
+			.logo img
+			{
+				width: 45px;
+				height: 45px;
+				object-fit: contain;
+			}
+
+			.logo h1
+			{
+				font-size: 24px;
+				font-weight: 700;
+				color: #1a1a1a;
+				margin: 0;
+			}
+
+			main 
+			{
+				flex: 1;
+				width: 90%;
+				max-width: 1200px;
+				margin: 30px 0;
+				display: flex;
+				flex-direction: column;
+				gap: 20px;
+			}
+
+			.info
+			{
+				background-color: #ffffff;
+				border-left: 5px solid #0066cc;
+				padding: 15px 20px;
+				border-radius: 4px;
+				box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+			}
+
+			.info p 
+			{
+				margin: 0;
+				font-size: 15px;
+				line-height: 1.5;
+			}
+
+			.contenedor-iframe
+			{
+				width: 100%;
+				height: 650px;
+				background-color: #ffffff;
+				border-radius: 8px;
+				box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+				overflow: hidden;
+				border: 1px solid #e1e4e8;
+			}
+
+			iframe 
+			{
+				width: 100%;
+				height: 100%;
+				border: none;
+			}
+
+			footer 
+			{
+				width: 100%;
+				text-align: center;
+				padding: 15px;
+				font-size: 13px;
+				color: #666;
+				border-top: 1px solid #e1e4e8;
+				background-color: #ffffff;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header>
+			<div class="logo">
+				<img src="https://raw.githubusercontent.com/neofodere/nsave/refs/heads/main/images/icono_nsave_blocker.png">
+				<h1>nSAVE Blocker Tester</h1>
+			</div>
+		</header>
+
+		<main>
+			<div class="info">
+				<p><strong>Blocked by HTTP Header</strong> In this example, the block is triggered by the X-Frame-Options header with the DENY value.</p>
+			</div>
+
+			<div class="contenedor-iframe">
+				<iframe src="https://fodsoft.com"></iframe>
+			</div>
+
+			<div class="info">
+				<p><strong>Blocked by nSAVE Blocker</strong> In this second example, the X‑Frame‑Options header is not being applied, so the iframe would normally load — but nSAVE Blocker still blocks it.</p>
+			</div>
+
+			<div class="contenedor-iframe">
+				<iframe src="https://resources.fodsoft.com/allow-iframes/example"></iframe>
+			</div>
+		</main>
+
+		<footer>
+			&copy; 2026 FODSOFT&trade;. Neo Fodere de Frutos. All rights reserved.
+		</footer>
+	</body>
+</html>
+<!-- FODSOFT(TM). Neo Fodere de Frutos. All rights reserved. -->
