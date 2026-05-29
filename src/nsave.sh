@@ -4,9 +4,13 @@
 
 URLS=(
   "https://fodsoft.com"
-  "https://fodsoft.com/vdream"
+  "https://fodsoft.com/software"
+  "https://fodsoft.com/games"
+  "https://fodsoft.com/extensions"
+  "https://fodsoft.com/vdream/"
+  "https://fodsoft.com/clickcontrol/"
   "https://fodsoft.itch.io"
-  "https://github.com/neofodere/"
+  "https://github.com/neofodere"
 )
 
 capturar_url()
