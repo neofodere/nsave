@@ -4,9 +4,6 @@
 
 URLS=(
   "https://fodsoft.com"
-  "https://fodsoft.com/software"
-  "https://fodsoft.com/games"
-  "https://fodsoft.com/extensions"
   "https://fodsoft.com/vdream/"
   "https://fodsoft.com/clickcontrol/"
   "https://fodsoft.itch.io"
